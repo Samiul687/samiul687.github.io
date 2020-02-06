@@ -5,7 +5,15 @@ h2 {
     margin-top: 450px;
     margin-left: 100px;
     margin-right: 100px;
+    text-align: center;
 
+}
+h3 {
+    font-family: Ubuntu, monospace;
+    font-size: 50px;
+    color: black;
+    text-align: center;
+    padding-top: 100px;
 }
 
 body {
@@ -50,3 +58,32 @@ body {
   padding-left: 20px;
   outline: 3px solid black;
 }
+html {
+  scroll-behavior: smooth;
+ }
+ 
+ a {
+  text-decoration: none;
+  color: black;
+
+ } 
+ 
+ #AboutMe {
+  margin-top: 700px;
+  padding-bottom:800px ;
+  margin-left: 400px;
+  margin-right: 200px;
+ }
+ #Projects {
+  margin-top: 700px;
+  padding-bottom:800px ;
+  margin-left: 400px;
+  margin-right: 200px;
+ }
+ #ContactMe {
+  margin-top: 700px;
+  padding-bottom:800px ;
+  margin-left: 400px;
+  margin-right: 200px;
+ }
+
