@@ -65,25 +65,34 @@ html {
  a {
   text-decoration: none;
   color: black;
-
  } 
  
- #AboutMe {
-  margin-top: 700px;
-  padding-bottom:800px ;
-  margin-left: 400px;
-  margin-right: 200px;
- }
- #Projects {
-  margin-top: 700px;
-  padding-bottom:800px ;
-  margin-left: 400px;
-  margin-right: 200px;
- }
- #ContactMe {
-  margin-top: 700px;
-  padding-bottom:800px ;
+#AboutMe {
+  margin-top: 800px;
+  padding-bottom:700px ;
   margin-left: 400px;
   margin-right: 200px;
  }
 
+#Projects {
+  margin-top: 800px;
+  padding-bottom:700px ;
+  margin-left: 400px;
+  margin-right: 200px;
+ }
+
+#ContactMe {
+  margin-top: 800px;
+  padding-bottom:700px ;
+  margin-left: 400px;
+  margin-right: 200px;
+ }
+
+.card {
+  box-shadow: 0 100px 200px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  border-radius: 10px; /* 5px rounded corners */
+ }
+ 
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
