@@ -30,12 +30,12 @@ body {
 /* Style the side navigation */
 .sidenav {
   height: 100%;
-  width: 200px;
+  width: 170px;
   position: fixed;
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: rgb(0, 0, 0);
   overflow-x: hidden;
   font-family: Ubuntu, monospace;
 }
@@ -74,22 +74,22 @@ html {
 #AboutMe {
   margin-top: 550px;
   padding-bottom:10px;
-  margin-left: 350px;
+  margin-left: 325px;
   margin-right: 150px;
-  margin-bottom: 10px;
+  margin-bottom: 300px;
 }
 
 #Projects {
   margin-top: 750px;
   padding-bottom:700px ;
-  margin-left: 350px;
+  margin-left: 325px;
   margin-right: 150px;
 }
 
 #ContactMe {
   margin-top: 400px;
   padding-bottom:100px ;
-  margin-left: 350px;
+  margin-left: 325px;
   margin-right: 150px;
   margin-bottom: 300px
 }
