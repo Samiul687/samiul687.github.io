@@ -116,3 +116,12 @@ html {
   margin-right: auto;
   float: left;
 }
+.project-btn {
+  padding: 20px;
+  display: block;
+  margin-left: 200px;
+  margin-right: auto;
+  float: left;
+  width: 200px;
+  border-radius: 10px;
+}
