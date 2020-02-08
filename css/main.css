@@ -72,15 +72,15 @@ html {
 } 
  
 #AboutMe {
-  margin-top: 800px;
-  padding-bottom:700px ;
+  margin-top: 550px;
+  padding-bottom:10px;
   margin-left: 350px;
   margin-right: 150px;
-  margin-bottom: 150px;
+  margin-bottom: 10px;
 }
 
 #Projects {
-  margin-top: 100px;
+  margin-top: 750px;
   padding-bottom:700px ;
   margin-left: 350px;
   margin-right: 150px;
@@ -99,7 +99,7 @@ html {
   transition: 0.3s;
   border-radius: 10px; /* 5px rounded corners */
   background-color: #b3b3b3;
-  font-family: Ubuntu;
+  font-family: Ubuntu, monospace;
   text-align: center;
   font-size: 20px;
 }
