@@ -1,47 +1,143 @@
 <!DOCTYPE html>
+
 <html lang="en">
+
 <head>
-<title>Samiul Islam</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="/css/main.css">
-</head>
-<body>
+    <title>Samiul Islam</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap" rel="stylesheet">
-<div class="sidenav">
-  <img src="/images/logo-inverted.png" alt="My logo" width= 150px>
-  <a href="#">Home</a>
-  <a href="#AboutMe">About Me</a>
-  <a href="#Projects">Projects</a>
-  <a href="#ContactMe">Contact Me</a>
-</div>
+    <link rel="stylesheet" type="text/css" href="/css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="/css/main.css">
 
-<div class="content">
-  <h2>Samiul Islam</h2>
-</div>
 
-<div class = "card" id="AboutMe">
-<h3><u>About Me</u></h3>
-  <p>Hi, my name's Samiul and I'm a programmer. Currently I know how to program in Python, HTML, CSS and am learning to program in JavaScript. I think my biggest asset is my willingness to learn and better my skills in any area of programming and software development. In addition to this, I’m well organized which allows me to work through a problem step-by-step until a solution is found. Finally, when I’m invested in a project I am determined and enthusiastic to the project's completion. </p>
-</div>
 
-<div class = "card" id="Projects">
-  <h3><u>Projects</u></h3>
-  <figure> 
-  <a href="https://github.com/Samiul687/Python-Projects/blob/master/Sudoku%20Solver.py"><img src="/images/sudoku.png" class = project-btn alt="Sudoku Solver"></a>
-  <figcaption>Sudoku Solver</figcaption>
-  </figure>
-  <a href="https://github.com/Samiul687/Python-Projects/blob/master/Pythagorean%20Triples%20Checker.py"><img src="/images/pythagoras.svg" class = project-btn alt="Pythagorean Triples Checker"></a>
-  <a href="https://github.com/Samiul687/Python-Projects/blob/master/Armstrong%20Number%20Checker.py"><img src="/images/Armstrong.jpg" class = project-btn alt="Armstrong Number Checker"></a>
-</div>
+</head>
 
-<div class = "card" id="ContactMe">
-  <h3><u>Contact Me</u></h3>
-  <h4><font size="+3">Have a question or want to work together?</font></h4>
-  <a href="https://www.linkedin.com/in/samiul687/"><img class = social-btn src="/images/linked-in.png" alt="Linkedin Button" ></a>
-  <a href="https://twitter.com/Samiul687"><img class = social-btn src="/images/twitter.png" alt="Twitter Button" ></a>  
-  <br>
-  <p>e-mail: Samiul687@gmail.com</p>
-  <p>Phone: +44 7707 423 424</p>
+<body>
 
-</div>
+    <nav class="sidenav">
+        <img src="/images/logo-inverted.png" alt="My logo" width=150px>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#AboutMe">About me</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#ContactMe">Contact Me</a></li>
+            <li><a href="https://drive.google.com/file/d/1W5NjJKVS7Qjc4hPvQ_bAyf_akiH4csxB/view?usp=sharing" target="_blank">Resume</a>
+            </li>
+        </ul>
+    </nav>
+
+
+
+    <main>
+
+        <section id="header">
+            <h1>Samiul Islam</h1>
+            <br>
+            <a href="#AboutMe"><img src="/images/arrow down.png" width=50px alt="Down Button"></a>
+        </section>
+
+
+
+
+
+        <section id="AboutMe">
+            <h2>About me</h2>
+            <div class="card">
+                <p>Hi, my name's Samiul and I'm a programmer. <br><br> Currently I know how to program in Python, HTML,
+                    CSS and
+                    am learning to program in JavaScript. <br><br> I think my biggest asset is my willingness to learn
+                    and better
+                    my skills in any area of programming
+                    and software development. In addition to this, I’m well organized which allows me to work through a
+                    problem step-by-step until a solution is found. <br><br> Finally, when I’m invested in a project I
+                    am
+                    determined and enthusiastic to the project's
+                    completion. </p>
+            </div>
+        </section>
+
+
+
+
+        <section id="Projects">
+            <h2>Projects</h2>
+            <div class="card">
+                <div class="row">
+
+                    <a href="https://github.com/Samiul687/Python-Projects/blob/master/Sudoku%20Solver.py" target="_blank"
+                        class="five columns">
+                        <img src="/images/sudoku.png" class="project-btn" alt="Sudoku Solver">
+                    </a>
+                    <desc class="seven columns">
+                        <h4>Sudoku Solver</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut
+                            labore
+                            et dolore magna aliqua.
+                        </p>
+                    </desc>
+
+                </div>
+                <div class="row">
+
+                    <a href="https://github.com/Samiul687/Python-Projects/blob/master/Armstrong%20Number%20Checker.py" target="_blank"
+                        class="five columns">
+                        <img src="/images/Armstrong.jpg" class="project-btn" alt="Armstrong Number Checker">
+                    </a>
+                    <desc class="seven columns">
+                        <h4>Armstring Number Checker</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut
+                            labore
+                            et dolore magna aliqua.
+                        </p>
+                    </desc>
+
+                </div>
+                <div class="row">
+
+                    <a href="https://github.com/Samiul687/Python-Projects/blob/master/Pythagorean%20Triples%20Checker.py" target="_blank"
+                        class="five columns">
+                        <img src="/images/pythagoras.svg" class="project-btn" alt="Pythagorean Number Checker">
+                    </a>
+                    <desc class="seven columns">
+                        <h4>Pythagorean Triples Checker</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut
+                            labore
+                            et dolore magna aliqua.
+                        </p>
+                    </desc>
+
+                </div>
+
+            </div>
+        </section>
+
+
+
+
+
+        <section id="ContactMe">
+            <h2>Contact Me</h2>
+            <div class="card">
+                <h3>Have a question or want to work together?</h3>
+                <a href="https://www.linkedin.com/in/samiul687/" target="_blank"><img class=social-btn src="/images/linked-in.png"
+                        alt="Linkedin Button"></a>
+                <a href="https://twitter.com/Samiul687" target="_blank"><img class=social-btn src="/images/twitter.png"
+                        alt="Twitter Button"></a>
+                <a href="https://github.com/Samiul687" target="_blank"><img class=social-btn src="/images/GitHub.png"
+                        alt="Github Button"></a>
+                <a href="mailto:samiul687@gmail.com"><img class=social-btn src="/images/mail.png" alt="Mail Button"></a>
+
+                <br>
+                <a class="button"
+                    href="https://drive.google.com/file/d/1W5NjJKVS7Qjc4hPvQ_bAyf_akiH4csxB/view?usp=sharing" target="_blank">Resume</a>
+                <p>Phone: +44 7707 423 424</p>
+            </div>
+        </section>
+
+    </main>
+</body>
